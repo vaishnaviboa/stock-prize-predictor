@@ -1,1 +1,1 @@
-# stock-prize-predictor
+# stock-prize-predictorThe Stock Price Predictor is a machine learning project designed to forecast future stock prices based on historical market data. This project demonstrates how to collect, preprocess, and model stock data using techniques like Linear Regression, with the potential to expand into more advanced models such as LSTM, Random Forest, or XGBoost.
