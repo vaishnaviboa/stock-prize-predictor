@@ -1,0 +1,5 @@
+# Example: Creating a simple moving average
+df['SMA_10'] = df['Close'].rolling(window=10).mean()
+
+# Drop NaNs after creating moving averages
+df.dropna(inplace=True)
