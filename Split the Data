@@ -1,0 +1,6 @@
+from sklearn.model_selection import train_test_split
+
+X = df[['Open', 'High', 'Low', 'Volume', 'SMA_10']]  # example features
+y = df['Close']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, shuffle=False, test_size=0.2)
