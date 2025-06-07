@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12,6))
+plt.plot(y_test.index, y_test, label="Actual")
+plt.plot(y_test.index, y_pred, label="Predicted")
+plt.legend()
+plt.title("Stock Price Prediction")
+plt.show()
